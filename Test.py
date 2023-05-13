@@ -1,3 +1,6 @@
-a= 3
-print (a)
-print ("hola")
+print(2 + 2)
+print(2 + 3)
+
+print(2 + 4)
+
+print("Hola mundo ")
