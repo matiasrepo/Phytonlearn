@@ -17,10 +17,57 @@ if (
     
     """
 
-
+"""
 # Usando sentencia else
-a = 12
+a = 3
 if a > 10:
     print("a es mayor que 10.")
 else:
     print("a es menor o igual que 10.")
+"""
+
+
+"""
+# Otra forma
+a = 12
+if a > 10:
+	print("a es mayor que 10.")  
+if a <= 10:
+	print("a es menor o igual que 10.")
+"""
+
+"""
+# Veamos otra condicion
+
+a = 99
+if a == 1:
+    print("a es 1.")
+elif a == 2:
+    print("a es 2.")
+elif a > 2 and a < 10:
+    print("a es mayor que 2 y menor que 10.")
+else:
+    print("a es mayor o igual que 10.")
+
+"""
+
+
+"""
+# Otro ejemplo
+
+n = 11
+if n % 2 == 0:
+    print(n,"es un número par")
+else:
+    print(n,"es un número impar")	
+"""
+
+comando = "OTRA COSA"
+if comando == "ENTRAR":
+    print("Bienvenido al sistema")
+elif comando == "SALUDAR":
+    print("Hola, espero que te lo estés pasando bien aprendiendo Python")
+elif comando == "SALIR":
+    print("Saliendo del sistema...")
+else:
+    print("Este comando no se reconoce")
