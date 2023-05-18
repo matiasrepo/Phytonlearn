@@ -55,3 +55,45 @@ precio_iva = precio_producto * iva
 print("El porcentaje del IVA es",int(iva * 100), "%")
 print("El precio del IVA es", precio_iva, "$")
 print("El precio final es", precio_iva + precio_producto, "$")
+print("_____________________")
+print("_____________________")
+print("_____________________")
+print("_____________________")
+print("_____________________")
+print("_____________________")
+print("_____________________")
+
+"""Ejercicio 4
+Realizar un programa que tenga 2 variables, base = 10 y altura = 5,
+calcular el área de un rectángulo y mostrar por pantalla."""
+
+base = 10.5
+altura = 5.9
+
+area = base * altura
+
+print("El area del rectangulo es:",(round(area,2))) #el ROUND asigna la cantidad de decimales
+
+
+print ("_________________________")
+print ("_________________________")
+print ("_________________________")
+print ("_________________________")
+print ("_________________________")
+"""Ejercicio 5
+Dadas 2 variables: a = 20 y b = 10, mostrar por pantalla su suma,
+resta, multiplicación y división."""
+
+a = 20
+b = 10
+
+suma = a + b
+resta = a - b
+multiplicacion = a * b
+division = a / b
+
+print("La suma es:", suma)
+print("La resta es:",resta)
+print("La multiplicación es:", multiplicacion)
+print("La división es:", division)
+
