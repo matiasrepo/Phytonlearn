@@ -46,13 +46,12 @@ saludoCompleto = saludo + separador + nombre  # Junto todas las variables en una
 print(saludoCompleto)
 
 
-
 """Ejercicio 3
 Mostrar el precio del IVA de un producto con un valor de 100 y su precio final."""
 
 iva = 0.21
 precio_producto = 100
 precio_iva = precio_producto * iva
+print("El porcentaje del IVA es",int(iva * 100), "%")
 print("El precio del IVA es", precio_iva, "$")
-print("El precio final es", precio_iva + precio_producto,"$")
-
+print("El precio final es", precio_iva + precio_producto, "$")
