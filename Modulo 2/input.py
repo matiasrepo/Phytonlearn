@@ -18,7 +18,6 @@ podemos usar el  operador de suma para mostrar un saludo:
 
 nombre = input("Escribe tu nombre:")
 print("Hola" + " " + nombre)
-
 if nombre == "Repo":
     print("Que onda turro")
 else:
@@ -52,7 +51,7 @@ type(int())
 
 numero_en_cadena = "30"
 numero_entero = int(numero_en_cadena)
-print (numero_entero)
+print(numero_entero)
 
 print(type(numero_en_cadena))
 
@@ -62,7 +61,6 @@ print(type(numero_entero))
 # Conversión de un número  entero a una cadena, usamos str
 
 numero_entero = 30
-numero_en_cadena =  str(numero_entero)
 print(numero_en_cadena)
 
 print(type(numero_en_cadena))
@@ -88,3 +86,22 @@ print(b)
 print(c)
 
 
+
+##################################
+# Conocer mas la funcion print()
+###################################
+
+a = 'azul'
+b = 'verde'
+c = 'rojo'
+
+# Primer punto a observar: print() separa cada argumento empleando un espacio en blanco.
+
+print(a,b,c)
+
+# Segundo punto: cada impresión con print() concluye con un salto de línea.
+
+print(a)
+print()
+print(b)
+print(c)
